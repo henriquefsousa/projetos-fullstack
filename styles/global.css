@@ -3,3 +3,13 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+:root{
+  --brand: #EF5F4C;
+  --backgorund: #FFFFFF;
+  --surface: #F5F5F5;
+  --skeleton: #D9D9D9;
+  --shape: #ffffff8f;
+  --text1: #313131;
+  --text2: #6C6C6C;
+}
