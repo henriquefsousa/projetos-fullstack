@@ -1,0 +1,45 @@
+header{
+  padding-block: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header main{
+  display: flex;
+  align-items: center;
+  width: 592px;
+  height: 176px;
+  gap: 32px;
+}
+
+h1{
+  font: var(--text-lg);
+  color: var(--textc1);
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+}
+
+header main p{
+  font: var(--text-md);
+  color: var(--textc2);
+}
+
+
+#info{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style: none;
+  font: var(--text-md);
+  color: var(--textc2);
+  gap: 16px;
+  width: 280px;
+}
+
+#info li{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

@@ -35,6 +35,8 @@ a:hover{
 
 .surface{
   background-color: var(--surface);
-  margin: 0;
-  padding: 0;
+}
+
+.pin{
+  vertical-align: middle;
 }
