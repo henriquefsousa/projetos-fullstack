@@ -1,0 +1,25 @@
+.grid{
+  display: grid;
+}
+
+.grid-flow-c{
+  grid-auto-flow: column;
+}
+
+.grid-flow-c2{
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.gap-16{
+  gap: 16px;
+}
+
+.h1{
+  font: var(--h1);
+}
+.h2{
+  font: var(--h2);
+}
+.h3{
+  font: var(--h3);
+}
