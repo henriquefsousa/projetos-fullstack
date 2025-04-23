@@ -1,0 +1,13 @@
+footer{
+  display: flex;
+  justify-content: space-between;
+  font: var(--text-md);
+  color: var(--textc2);
+  padding-block: 24px;
+}
+
+footer div{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
