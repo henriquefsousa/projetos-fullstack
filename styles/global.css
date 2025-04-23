@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: var(--backgorund);
+}
+
 :root{
   --brand: #EF5F4C;
   --backgorund: #FFFFFF;
