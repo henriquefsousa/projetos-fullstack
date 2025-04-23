@@ -3,3 +3,38 @@
   margin: 0;
   padding: 0;
 }
+
+:root{
+  --brand-light: #60A5FA;
+  --brand-dark: #1D4ED8;
+  --bg: #0F172A;
+  --stroke: #1E293B;
+  --textc1: #F1F5F9;
+  --textc2: #CBD5E1;
+  --font: "Archivo", sans-serif;
+  --h1: 800 24px/135% var(--font);
+  --h2: 800 16px/140% var(--font);
+  --h3: 800 14px/140% var(--font);
+  --span: 600 14px/145% var(--font);
+  --text: 400 14px/145% var(--font);
+  --p: 400 14px/160% var(--font);
+}
+
+body{
+  background-color: var(--bg);
+  font: var(--text);
+  color: var(--textc1);
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  color: var(--brand-light);
+}
+
+h1, h2, h3{
+  font: inherit;
+}
