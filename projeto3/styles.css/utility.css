@@ -23,3 +23,41 @@
 .h3{
   font: var(--h3);
 }
+.span{
+  font: var(--span);
+  color: var(--textc2);
+}
+
+.border-top{
+  border-top: 1px solid var(--stroke);
+}
+
+.topico{
+  display: inline-block;
+  background-color: var(--brand-dark);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font: 500 10px/1.2 var(--font);
+  color: var(--textc1);
+  letter-spacing: 0.04em;
+  box-shadow: 0px 4px 16px #02061740;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+}
+.justify-between{
+  justify-content: space-between;
+}
+
+.center{
+  align-items: center;
+}
+
+.size-pin{
+  height: 20px;
+  width: 20px;
+}
+
+
