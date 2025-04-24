@@ -19,10 +19,19 @@
   --asap: 'Asap', sans-serif;
   --inconsolata: 'Inconsolata', sans-serif;
   --maven: 'Maven Pro', sans-serif;
-  --title-lg: 56px/120% 700 var(--asap);
-  --title-md: 24px/120% 700 var(--asap);
-  --title-sm: 16px/120% 700 var(--asap);
+  --title-lg: bold 56px/120% var(--asap);
+  --title-md: bold 24px/120% var(--asap);
+  --title-sm: bold 16px/120%  var(--asap);
   --subtitle: 20px/120% var(--inconsolata);
   --textmd: 16px/140% var(--maven);
   --textsm: 14px/140% var(--maven);
+}
+
+h1, h2, h3{
+  font: inherit;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
 }

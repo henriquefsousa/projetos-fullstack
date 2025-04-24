@@ -1,0 +1,20 @@
+.sub-500{
+  font: var(--subtitle);
+  color: var(--gray500);
+}
+
+.title-600{
+  font: var(--title-lg);
+  color: var(--gray600);
+}
+.text-400{
+  font: var(--textsm);
+  color: var(--gray400);
+}
+.pred{
+  color: var(--pred);
+}
+.text-500{
+  font: var(--textmd);
+  color: var(--gray500);
+}
