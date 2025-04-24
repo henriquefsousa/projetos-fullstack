@@ -32,6 +32,7 @@
 
 #mais-lido{
   padding-bottom: 24px;
+  margin-bottom: 80px;
   img:not(.not){
     height: 160px;
   }
@@ -65,5 +66,60 @@
       top: 4px;
       left: 8px;
     }
+  }
+}
+#seção{
+  height: 856px;
+  gap: 32px;
+}
+#destaques{
+  padding-top: 12px;
+  margin-bottom: 24px;
+  header a{
+    gap: 4px;
+  }
+}
+
+#coisas{
+  grid-template-rows: repeat(1,1fr);
+  gap: 32px;
+  h3{
+    margin-top: 8px;
+    font: var(--h2);
+    color: var(--textc1);
+  }
+  img{
+    min-width: 176px;
+    height: 176px;
+  }
+}
+
+.info{
+  width: 504px;
+  height: 164px;
+}
+
+#anuncio{
+  position: relative;
+  margin-bottom: 32px;
+  a{
+    position: absolute;
+    top:4px;
+    right: 4px;
+  }
+}
+
+#topicos{
+  gap: 32px;
+  .topic{
+    max-height: 72px;
+    gap: 15px;
+  }
+  .topic img{
+    width: 72px;
+    height: 72px;
+  }
+  .topic span{
+    margin-bottom: 8px;
   }
 }

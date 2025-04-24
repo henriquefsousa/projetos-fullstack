@@ -28,6 +28,11 @@
   color: var(--textc2);
 }
 
+.p{
+  font: var(--p);
+  color: var(--textc2);
+}
+
 .border-top{
   border-top: 1px solid var(--stroke);
 }
@@ -60,4 +65,7 @@
   width: 20px;
 }
 
+.border-r{
+  border-radius: 4px;
+}
 
