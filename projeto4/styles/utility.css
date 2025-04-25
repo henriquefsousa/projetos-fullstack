@@ -33,3 +33,7 @@
   font: var(--textsm);
   color: var(--gray500);
 }
+
+.ppurple{
+  color: var(--ppurple);
+}

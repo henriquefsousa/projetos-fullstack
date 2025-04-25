@@ -1,0 +1,51 @@
+#contato{
+  background-image: url(../assets/Background_Contacts.png);
+  background-size: cover;
+  min-height: 787px;
+  padding-block: 120px;
+  padding-top: 128px;
+  padding-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+}
+
+#redes{
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  gap:16px;
+  width: 400px;
+  height: 320px;
+  div{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: var(--gray300);
+    border-radius: 8px;
+    padding: 20px;
+    p{
+      display: inline-block;
+      margin-right: auto;
+    }
+  }
+  div:hover{
+    border: solid 2px var(--pblue);
+  }
+}
+
+.logo{
+  height: 28px;
+  width: 28px;
+}
+
+.a{
+  width: 20px;
+  height: 20px;
+}
