@@ -1,5 +1,5 @@
 #intro{
-  height: 750px;
+  min-height: 750px;
   background-image: url(../assets/Background_Intro.png);
   background-size: cover;
   display: flex;

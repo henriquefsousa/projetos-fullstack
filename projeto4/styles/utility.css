@@ -18,3 +18,18 @@
   font: var(--textmd);
   color: var(--gray500);
 }
+
+.title2-600{
+  font: var(--title-md);
+  color: var(--gray600);
+}
+
+.title3-600{
+  font: var(--title-sm);
+  color: var(--gray600);
+}
+
+.textsm-500{
+  font: var(--textsm);
+  color: var(--gray500);
+}
