@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root{
+  --text: 400 1rem/1.5;
+  --text-sm: 400 0.875rem/1.4;
+  --h1: bold 32px/120%;
+  --h2: bold 24px/120%;
+  --h3: bold 20px/120%;
+  --h4: bold 16px/120%;
+
+  --c1: #292524;
+  --c2: #57564E;
+  --c3: #8F8881;
+  --ch: #E43A12;
+
+  --s1: #FFFFFF;
+  --s2: #FEE7D6;
+
+  --sd: #D6D3D1;
+  --sh: #F4541C;
+  --e: #DC2626;
+}
