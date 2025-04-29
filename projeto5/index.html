@@ -46,14 +46,17 @@
         <div class="textearea-wrapper">
           <label for="medical-info">Informações médicas</label>
           <textarea id="medical-info" name="medical-info"
-          cols="30" rows="10"
+          cols="30" rows="5"
           placeholder="A criança passui alguma condição médica que a escola deve estar ciente?"></textarea>
         </div>
+
         <div class="droparea-wrapper">
           <label for="birth-file">Certidão de nascimento</label>
-          <input type="file" id="birth-file" name="birth-file">
-          <img src="assets/icons/cloud-upload.svg">
-          <p>Clique aqui para <br> selecionar arquivos</p>
+          <div class="drop-zone">
+            <input type="file" id="birth-file" name="birth-file">
+            <img src="assets/icons/cloud-upload.svg">
+            <p>Clique aqui para <br> selecionar arquivos</p>
+          </div>
         </div>
         </fieldset>
       </form>
