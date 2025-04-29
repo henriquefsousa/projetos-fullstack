@@ -10,6 +10,64 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-  
+  <div id="app">
+    <main>
+        <header>
+          <div>
+            <img src="assets/icons/arrow-left-02.svg" alt="setinha">
+            <span class="text">Voltar</span>
+          </div>
+          <div>
+            <h1 class="h2">Formulário de matrícula</h1>
+            <p class="text">Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
+          </div>
+        </header>
+      <form type="multipart/form-data" method="post">
+        <fieldset class="child-info">
+          <legend>Dados da criança</legend>
+          <div class="input-wrapper">
+            <label for="name">Nome completo</label>
+            <input type="text"name="fullname" id="name" placeholder="Nome completo da criança" required>
+          </div>
+          <div class="input-wrapper">
+            <label for="birth-date">Data de nascimento</label>
+          <input type="date" name="birth"id="birth-date" required>
+        </div>
+
+        <div class="select-wrapper">
+          <label for="gender">Sexo</label>
+          <select name="gender" id="gender">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+          </select>
+        </div>
+
+        <div class="textearea-wrapper">
+          <label for="medical-info">Informações médicas</label>
+          <textarea id="medical-info" name="medical-info"
+          cols="30" rows="10"
+          placeholder="A criança passui alguma condição médica que a escola deve estar ciente?"></textarea>
+        </div>
+        <div class="droparea-wrapper">
+          <label for="birth-file">Certidão de nascimento</label>
+          <input type="file" id="birth-file" name="birth-file">
+          <img src="assets/icons/cloud-upload.svg">
+          <p>Clique aqui para <br> selecionar arquivos</p>
+        </div>
+        </fieldset>
+      </form>
+    </main>
+    <aside>
+      <div>
+        <header>
+          <img src="assets/Frame 48095956.svg" alt="logo estrelas do amanhã">
+          <h2 class="aside-t">Porque cada momento de <span class="ch">aprendizado</span> conta</h2>
+          <p class="text">Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e estimulante.</p>
+        </header>
+        <img src="assets/pana.svg" alt="crianças aprendendo">
+      </div>
+    </aside>
+  </div>
 </body>
 </html>
