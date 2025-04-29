@@ -1,0 +1,56 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Brand Colors */
+  --brand-light: #59B2FF;
+  --brand-mid: #3487CF;
+  --brand-dark: #1D6FB6;
+
+  /* Accent Colors */
+  --purple: #B259FF;
+  --fuschia: #FF59F9;
+  --pink: #FF59BB;
+  --orange: #FF8B59;
+  --yellow: #FFCD89;
+  --lime-green: #E1FF59;
+  --green: #59FF91;
+  --cyan: #59FFF9;
+  --navy: #6A59FF;
+
+  /* Feedback Colors */
+  --danger: #FF5959;
+
+  /* Input Colors */
+  --input-base: #1C1F21;
+  --input-stroke: #363840;
+  --input-placeholder: #869198;
+
+  /* Shape Colors */
+  --shape-background: #131516;
+  --shape-body: #212427;
+  --shape-button: #2D3136;
+  --shape-hover: #383042;
+
+  /* Text Colors */
+  --text-body: #CBCDDF;
+  --text-heading: #F9F9F9;
+
+  --f1: "Leckerli one", sans-serif;
+  --f2: "Baloo 2", sans-serif;
+  --f3: "Open sans",sans-serif;
+
+  --logo: 400 2.5rem/auto var(--f1);
+  --hm: bold 1.75rem/auto var(--f2);
+  --hsm: bold 1.125rem/auto var(--f2);
+  --bmd: 400 1rem/auto var(--f3);
+  --bsm: 400 0.875rem/auto var(--f3);
+  --bxm: 400 0.75rem/auto var(--f3);
+}
+
+.semibold{
+  font-weight: 600;
+}
