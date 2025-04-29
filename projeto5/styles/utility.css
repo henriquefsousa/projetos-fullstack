@@ -1,0 +1,17 @@
+.aside-t{
+  font: 600 2.5rem/125% var(--f);
+}
+
+.ch{
+  color: var(--ch);
+}
+
+.text{
+  font: var(--text);
+  color: var(--c2);
+}
+
+.h2{
+  font: var(--h2);
+  color: var(--c1);
+}

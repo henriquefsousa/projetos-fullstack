@@ -1,0 +1,50 @@
+#app{
+  display: grid;
+  grid-template-columns: 51.25% 48.75%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+main{
+  overflow: auto;
+  padding: 4rem;
+  display: grid;
+  /*grid-template-rows: 8.4rem 43rem 19.25rem 22.25rem 33.75rem 3rem 4rem;*/
+  gap: 3rem;
+  header{
+    div:nth-child(1){
+      display: flex;
+      align-items: center;
+      gap:0.5rem;
+      margin-bottom: 1.5rem;
+      img{
+        vertical-align: center;
+      }
+    }
+    div:nth-child(2){
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+}
+aside{
+  padding: 4rem;
+  background: var(--s2);
+  div{
+    margin: auto;
+    max-width: 31rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    img{
+      border-radius: 1.5rem;
+      max-height: 23rem;
+    }
+    header{
+      display: grid;
+      gap: 0.5rem;
+    }
+  }
+}
