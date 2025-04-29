@@ -87,6 +87,26 @@
             </div>
           </div>
         </fieldset>
+        <fieldset class="guardian">
+          <legend>Informações do responsável</legend>
+          <div class="input-wrapper">
+            <label for="guardian-name">Nome do responsável</label>
+            <input type="text" id="guardian-name" name="guardian-name" placeholder="Nome completo do responsável">
+            <small>Principal responsável legal e contato de emergência</small>
+          </div>
+          <div class="input-wrapper">
+            <label for="guardian-phone">Telefone</label>
+            <input type="tel" id="guardian-phone" name="guardian-phone" placeholder="(10) 91234-5678">
+          </div>
+          <div class="input-wrapper">
+            <label for="guardian-email">E-mail</label>
+            <input type="email" id="guardian-email" name="guardian-email" required>
+            <div class="error">
+              <img src="assets/alert-circle.svg" alt="alerta">
+              <span>Insira um e-mail válido</span>
+            </div>
+          </div>
+        </fieldset>
       </form>
     </main>
     <aside>

@@ -44,3 +44,27 @@ input[disabled]{
   border: 1px solid var(--std);
   color: var(--c1);
 }
+
+input:invalid{
+  border: 0.125rem solid var(--e);
+}
+
+input + small{
+  font: var(--text-sm);
+  color: #78716C;
+  display: inline-block;
+  margin-top: .25rem;
+}
+
+input[required] + .error{
+  display: flex;
+  align-items: center;
+  gap:.25rem;
+  font: var(--text-sm);
+  color: var(--e);
+  margin-top: .25rem;
+}
+
+input:valid + .error{
+  display: none;
+}
