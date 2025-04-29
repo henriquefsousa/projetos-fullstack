@@ -1,0 +1,30 @@
+.terms-wrapper{
+  display: flex;
+  gap: .75rem;
+  align-items: flex-start;
+}
+
+.checkbox-wrapper{
+  position: relative;
+
+  & [type="checkbox"]{
+    all: unset;
+    position: absolute;
+    inset: 0;
+  }
+  .checkbox-img{
+    flex: 0 0 1.5rem;
+    height: 1.5rem;
+    background-image: url(../../assets/square.svg);
+  }
+  &:hover, &:focus-within{
+    .checkbox-img{
+      background-image: url(../../assets/square-1.svg);
+    }
+  }
+  &:has([type="checkbox"]:checked){
+    .checkbox-img{
+      background-image: url(../../assets/checkmark-square-01.svg);
+    }
+  }
+}

@@ -1,5 +1,7 @@
 @import url(droparea.css);
 @import url(radio.css);
+@import url(checkbox.css);
+@import url(button.css);
 
 input, textarea, select{
   appearance: none;

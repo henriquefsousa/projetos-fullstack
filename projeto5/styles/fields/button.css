@@ -1,0 +1,33 @@
+button{
+  all:unset;
+  font-weight:500;
+  color: var(--ch);
+  padding: .75rem 1.5rem;
+  border-radius: .5rem;
+  cursor: pointer;
+
+  &.btn1{
+    color: white;
+    background-color: #E43A12;
+    &:hover,
+    &:focus {
+      background-color: #f3541c;
+    }
+  }
+
+  &.btn2{
+    margin-left: auto;
+    border: 1px solid var(--ch);
+
+    &:hover,
+    &:focus {
+      color: #E43A12;
+      outline: .25rem solid var(--s2);
+    }
+  }
+}
+
+.margin-wrapper{
+  display: flex;
+  gap: 1rem;
+}
