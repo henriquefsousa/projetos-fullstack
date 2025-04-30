@@ -48,8 +48,8 @@ h1, h2, h3{
   --f3: "Open Sans",sans-serif;
 
   --logo: 400 2.5rem var(--f1);
-  --hm: bold 1.75rem var(--f2);
-  --hsm: bold 1.125rem var(--f2);
+  --hm: 700 1.75rem var(--f2);
+  --hsm: 700 1.125rem var(--f2);
   --bmd: 400 1rem var(--f3);
   --bsm: 400 0.875rem var(--f3);
   --bxm: 400 0.75rem var(--f3);
@@ -57,4 +57,15 @@ h1, h2, h3{
 
 .semibold{
   font-weight: 600;
+}
+
+body{
+  padding: 1rem;
+  background-color: var(--shape-background);
+  display: flex;
+  overflow:hidden;
+}
+
+fieldset, input, legend{
+  all: unset;
 }

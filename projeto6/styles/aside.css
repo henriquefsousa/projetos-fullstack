@@ -2,13 +2,13 @@ aside{
   border-radius: 12px;
   padding-inline: 2rem;
   padding-top: 2.5rem;
+  min-width: 25rem;
   background-image: url(../assets/Background.png);
   background-size: 25rem 100vh;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 45.5rem;
   & img{
     width: 2.86rem;
-    height: 3rem;
   }
   & header{
     display: flex;
