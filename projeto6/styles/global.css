@@ -63,9 +63,20 @@ body{
   padding: 1rem;
   background-color: var(--shape-background);
   display: flex;
-  overflow:hidden;
+  color: var(--input-placeholder);
 }
 
-fieldset, input, legend{
+fieldset, input, legend, textarea{
   all: unset;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator{
+  display: none;
+}
+
+.grid-2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  align-items: stretch;
 }

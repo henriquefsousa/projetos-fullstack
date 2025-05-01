@@ -1,28 +1,17 @@
 main{
-  padding-inline: 8.125rem;
+  padding-inline: 10.125rem;
   padding-block: 5rem;
   border-radius: 12px;
   width: 100%;
   margin-left: 1rem;
   background-color: var(--shape-body);
-  display: flex;
-  flex-direction: column;
-  gap: 2.5rem;
-  align-items: flex-start;
+  overflow-y: auto;
   & h1{
+    display: block;
+    margin-bottom: 2.5rem;
     font: var(--hm);
     color: var(--text-heading);
   }
-}
-
-#content{
-  width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 2.5rem;
 }
 
 .legend{
@@ -30,8 +19,18 @@ main{
   flex-direction: row;
   align-items: center;
   gap: .75rem;
+  margin-bottom: 2.5rem;
   & legend{
     font: var(--hsm);
     color: var(--text-heading);
   }
+}
+
+#a, form, fieldset{
+  width: 100%;
+}
+
+.flow-2{
+  display: flex;
+  gap: 2rem;
 }

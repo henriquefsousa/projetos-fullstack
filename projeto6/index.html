@@ -20,7 +20,7 @@
       </header>
     </aside>
     <main>
-        <div id="content">
+      <div id="a">
           <h1>Crie seu convite</h1>
           <form>
             <fieldset id="about">
@@ -28,13 +28,51 @@
                 <img src="assets/icons/calendar.svg" alt="icone de um calendario">
                 <legend>Sobre o evento</legend>
               </div>
-              <div class="input input-1">
+              <div class="boxes">
+                <div class="input">
                 <label for="title">Título</label>
-                <input type="text" id="title" placeholder="Nome do evento">
+                <input type="text" id="title" name="title" placeholder="Nome do evento">
               </div>
+              <div class="flow-2">
+                <div class="input">
+                  <label for="start">Início</label>
+                  <input type="date" id="start" name="start-date" placeholder="DD/MM/AAAA, --:--">
+                </div>
+                <div class="input">
+                  <label for="end">Fim</label>
+                  <input type="date" id="end" name="end-date" placeholder="DD/MM/AAAA, --:--">
+                </div>
+              </div>
+              <div class="grid-2">
+                <div class="input">
+                  <label for="">Tipo</label>
+                  <div class="radiow">
+                  <div class="radioi">
+                    <img src="assets/icons/building-2.svg" alt="icone de predio">
+                    <label for="presencial">Presencial</label>
+                    <input type="radio" id="presencial" value="presencial">
+                  </div>
+                  <div class="radioi">
+                    <img src="assets/icons/video.svg" alt="icone de camera">
+                    <label for="online">Online</label>
+                    <input type="radio" id="online" value="online">
+                  </div>
+                </div>
+                </div>
+                <div class="input">
+                  <label for="adress">Local</label>
+                  <input type="text" id="adress" name="adress" placeholder="link ou endereço">
+                </div>
+              </div>
+              <div class="input">
+                <label for="description">Descrição</label>
+                <textarea id="description" name="description" rows="5" placeholder="Escreva sobre os detalhes do evento"></textarea>
+              </div>
+            </div>
             </fieldset>
-          </form>
-        </div>
+            <fieldset></fieldset>
+            </form>
+          </div>
     </main>
 </body>
 </html>
