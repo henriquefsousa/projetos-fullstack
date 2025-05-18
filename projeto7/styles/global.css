@@ -2,16 +2,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: var(--background-primary);
+  font-family: var(--font);
+}
+
+a, input, button{
+  text-decoration: none;
+  color: inherit;
+  all: inherit;
 }
 
 :root{
   --font: 'Inter', sans-serif;
+  --sora: 'Sora', sans-serif;
+  --logo: bold 26.67px/2.5rem var(--sora);
   --title: bold 1.5rem/2rem var(--font);
   --label: 600 1rem/1.25rem var(--font);
   --p: 500 1rem/1.5rem var(--font);
   --link: 500 .875rem/1rem var(--font);
   
-  --background-primary: #F4FFFB;
+  --background-primary: #f4fffb95;
   --color-brand: #CA3884;
   --color-brand-hover: #A52C6B;
   --color-danger: #C93847;
@@ -20,5 +30,126 @@
   --content-tertiary: #9CA3AF;
   --always-white: #FFFFFF;
   --border-primary: #D1D5DB;
-  --border-hover: #B9C2D0;
+  --border-hover: #b9c2d0;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  width: 9.72rem;
+  margin-inline: auto;
+  margin-top: 1rem;
+  & h1{
+    color: var(--content-secondary);
+    font: var(--logo);
+    letter-spacing: -2%;
+  }
+}
+
+main{
+  width: 39.19rem;
+  margin-inline: auto;
+  margin-block: 3rem;
+
+  & #voltar{
+    display: block;
+    margin-bottom: 0.75rem;
+  }
+}
+
+#add-item{
+  & label{
+    font: var(--title);
+    color: var(--content-primary);
+  }
+
+  & div{
+    margin-block: 1.5rem;
+    display: flex;
+    gap: 1rem;
+
+    & input{
+      border: solid 1px var(--border-primary);
+      background-color: #FFFFFF;
+      border-radius: 12px;
+      padding: 0.75rem 1.125rem;
+      width: 28.18rem;
+      & ::placeholder{
+        color: var(--content-tertiary);
+      }
+      &:hover, &:focus{
+        border-color: var(--border-hover);
+      }
+      &:focus-visible{
+        outline: 2px solid var(--color-brand);
+      }
+    }
+    & button{
+      border-radius: 12px;
+      background-color: var(--color-brand);
+      font: var(--label);
+      color: var(--always-white);
+      padding: 0.75rem;
+      cursor: pointer;
+      &:hover, &:focus{
+        background-color: var(--color-brand-hover);
+      }
+    }
+  }
+}
+
+#checklist{
+  display: grid;
+  gap: .75rem;
+  & .checklist-wrapper{
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: solid 1px;
+    border-color: var(--border-primary);
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: .85rem;
+    position: relative;
+    & :hover, &:focus{
+      border-color: var(--border-hover);
+      label span{
+        background-image: url(../assets/state=Hover.svg);
+      }
+    }
+    & :has(input:checked){
+      border-color: var(--color-brand);
+       label span{
+        background-image: url(../assets/state=selected.svg);
+      }
+    }
+    
+    & input{
+      position: absolute;
+      opacity: 0;
+      inset: 0;
+      cursor: pointer;
+    }
+    & label{
+      font: var(--p);
+      color: var(--content-secondary);
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      & span{
+        display: inline-block;
+        width: 1rem;
+        height: 1rem;
+        background-image: url(../assets/state=Default.svg);
+        background-size: contain;
+      }
+    }
+    & button{
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+    }
+  }
 }

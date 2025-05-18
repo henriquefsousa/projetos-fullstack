@@ -3,14 +3,41 @@
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
   <title>Lista de compras</title>
 </head>
 <body>
-  
-  <script src="scripts/script.js"></script>
+  <header>
+    <img src="assets/logo.svg" alt="Logo">
+    <h1>quicklist</h1>
+  </header>
+  <main>
+    <a href="" id="voltar"><img src="assets/link button.svg" alt="botão de voltar"></a>
+    <form id="add-item">
+      <label for="new-item">Compras da semana</label>
+      <div>
+        <input type="text" id="new-item" name="new-item" placeholder="Adicione um novo item">
+        <button type="submit">Adicionar item</button>
+      </div>
+    </form>
+    <form id="checklist">
+    <div class="checklist-wrapper" id="a" style="display: none;">
+      <div>
+        <label>
+          <span></span>
+        </label>
+        <input type="checkbox" name="item1">
+      </div>
+      <button type="button" class="delete">
+        <img src="assets/Frame-3.svg" alt="pin de lixeira">
+      </button>
+      </div>
+    </form>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>
